@@ -8,8 +8,8 @@ import type {
 import { LinkPreset } from "./types/config";
 
 export const siteConfig: SiteConfig = {
-	title: "Leonxieの小窝",
-	subtitle: "『保持热爱，奔赴山海。』",
+	title: "晓夜の后花园",
+	subtitle: "『在这个世界难免会迷茫　但别再把小刀带在身上。』",
 	lang: "zh_CN", // Language code, e.g. 'en', 'zh_CN', 'ja', etc.
 	themeColor: {
 		hue: 250, // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
@@ -49,13 +49,18 @@ export const navBarConfig: NavBarConfig = {
 			url: "https://github.com/LeonspaceX/leonxie-blog", // Internal links should not include the base path, as it is automatically added
 			external: true, // Show an external link icon and will open in a new tab
 		},
+		{
+			name: "🏠 主站",
+			url: "https://leonxie.cn", // Internal links should not include the base path, as it is automatically added
+			external: true, // Show an external link icon and will open in a new tab
+		},
 	],
 };
 
 export const profileConfig: ProfileConfig = {
 	avatar: "assets/images/avatar.jpg", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-	name: "Leonxie",
-	bio: "『保持热爱，奔赴山海。』",
+	name: "晓夜",
+	bio: "『在这个世界难免会迷茫　但别再把小刀带在身上。』",
 	links: [
 		/*{
 			name: "Twitter",
